@@ -1,0 +1,56 @@
+@font-face {
+  font-family: Cantarell;
+  src: url("/fonts/Cantarell-VF.otf") format("opentype");
+}
+
+body {
+  background-color: black;
+  margin: 0px;
+  font-family: 'Cantarell';
+  color: var(--text);
+  height: fit-content;
+}
+
+#root {
+  height: fit-content;
+}
+
+:root {
+
+  --text: white;
+  --background-1: #1e1e1e;
+  --background-2: #303030;
+  --background-3: #2a2a2a;
+
+  --accent-1: #99c1f1;
+  --accent-2: #62a0ea;
+  --accent-3: #3584e4;
+  --accent-4: #1c71d8;
+  --accent-5: #1a5fb4;
+}
+
+:root[data-theme="light"] {
+  --text: black;
+  --background-1: #fafafa;
+  --background-2: #ebebeb;
+  --background-3: #f3f3f3;
+
+  --accent-5: #99c1f1;
+  --accent-4: #62a0ea;
+  --accent-3: #3584e4;
+  --accent-2: #1c71d8;
+  --accent-1: #1a5fb4;
+}
+
+:root[data-theme="dark"] {
+  --text: white;
+  --background-1: #242424;
+  --background-2: #303030;
+  --background-3: #2a2a2a;
+
+  --accent-1: #99c1f1;
+  --accent-2: #62a0ea;
+  --accent-3: #3584e4;
+  --accent-4: #1c71d8;
+  --accent-5: #1a5fb4;
+}

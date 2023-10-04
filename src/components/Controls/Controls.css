@@ -1,0 +1,60 @@
+div.calendarControls {
+    display: flex;
+    width: 100%;
+    min-height: 60px;
+    background-color: var(--background-1);
+    border-bottom: 0px solid transparent;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top:0;
+    z-index: 3;
+}
+
+.calendarControls h2 {
+    margin: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.calendarControls #month {
+    color: var(--accent-2)
+}
+
+.calendarControls #week {
+    color: var(--text)
+}
+
+.calendarControls .info {
+    display: flex;
+    margin-left: 10px;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.calendarControls button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px solid transparent;
+    aspect-ratio: 1/1;
+    border-radius: 100%;
+    background-color: var(--background-3);
+    color: var(--text);
+    font-family: 'Cantarell';
+    font-size: 100%;
+    font-weight: 700;
+    margin-right: 20px;
+    padding: 12px;
+    cursor: pointer;
+    transition: .2s;
+    overflow: hidden;
+}
+
+.calendarControls button:hover {
+    background-color: var(--background-2);
+}

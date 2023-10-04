@@ -1,0 +1,28 @@
+.ruler {
+    position: relative;
+    height: 100%;
+    width: 60px;
+    min-width: 60px;
+    max-width: 60px;
+    border-right: 1px solid grey;
+    box-sizing: border-box;
+}
+
+
+.ruler .rulerMark {
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    width: 100%;
+    height: calc((100% - var(--table-header-height)) / 24);
+    box-sizing: border-box;
+    color: #bbb;
+}
+
+.ruler .rulerMark.blinder {
+    background-color: var(--background-1);
+    position: sticky;
+    top: 0;
+    height: var(--table-header-height);
+    border-bottom: 2px solid #3f3f3f;
+}
