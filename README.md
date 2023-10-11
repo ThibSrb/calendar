@@ -4,7 +4,7 @@
 
 A simple calendar web app built with React and Vite.
 
-This web application aims to be a minimalist way to display one ore more calendars imported from ICS files.
+This web application aims to be a minimalist way to display one or more calendars imported from ICS files.
 
 It may evolve to aquire editing and exporting capabilities in the future.
 
